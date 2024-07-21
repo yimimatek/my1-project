@@ -1,0 +1,83 @@
+#a1{
+    display: inline ;
+    position: fixed;
+    margin-left: 250px;
+   flex-direction: row;
+   justify-content:flex-end ;
+   
+}
+
+button {
+background:linear-gradient(rgb(213, 36, 36),rgb(211, 197, 197));
+border-radius:30% ; 
+padding: 5px ;
+color: white;
+}
+
+.content {
+ background-color:none;
+ display: inline;
+ position: relative;
+ flex-direction: row;
+ justify-content: flex-end;
+
+}
+body{
+    background: url(./images/1234.jfif);
+        background-position:center ;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1{
+   color: rgb(145, 62, 21);
+    background:linear-gradient(to right, rgb(68, 0, 255), pink);
+    
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+img{
+    height: 70px;
+    width: 70px;
+    display:inline;
+    position: relative ;
+    
+}
+
+p{
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:100px ;
+    text-align: center;
+    
+}
+
+#my1 {
+    display: block;
+    height:500px;
+    width: 500px;
+    margin-left: 300px;
+
+}
+@media (max-width: 600px){
+    body{
+        background-size: contain;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #my1{
+        height:300px;
+        width: 300px;
+    }
+}

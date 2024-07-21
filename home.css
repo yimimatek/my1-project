@@ -1,0 +1,23 @@
+body{
+    background: url(./images/Breakfast-Tacos-Feature-768x1151.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    font-size: 25px;
+    color: white;
+}
+   @media (max-width:600px){
+    header{
+        font-size:20px;
+    }
+    body{
+        background-size: contain;
+    }
+    footer{
+        font-size:15px;
+    }
+}

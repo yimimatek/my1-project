@@ -1,0 +1,41 @@
+h1{
+
+    background:linear-gradient(to left, rgb(9, 50, 174),white) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+   
+}
+body{
+    background:url(./images/15295-soft-sugar-cookies-iv-ddmfs-Beauty-3x4-e1660f5907af41e09f01bd815cc14deb.jpg);
+    
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+p{
+   color: black;
+   font-family: 'Times New Roman', Times, serif; 
+   font-size:20px; 
+}
+h2{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+@media(max-width:600px){
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    body{
+        background-size: 100vw;
+    }
+}
